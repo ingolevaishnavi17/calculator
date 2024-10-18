@@ -1,0 +1,56 @@
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200703/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg");
+    background-repeat:no-repeat;
+    background-size: 95pc;
+}
+.outer{
+    background-color: black;
+    position: absolute;
+    left: 200px;
+    top: 80px;
+    width: 300px;
+    height: 450px;
+    border-radius: 19px;
+    box-shadow: 0 4px 10px #2c0eebef;
+}
+.inner{
+    background-color: #f0f8fff2;
+    height: 60px;
+    width: 250px;
+    margin: 30px;
+}
+.number-pad{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;
+    justify-items: center;
+    margin: 20px; /*Adds space around the number pad */
+}
+button{
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    background-color: #e0e0e0dd;
+    border: 2px solid hsla(0, 0%, 10%, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: ghostwhite;
+}
+.equal{
+    height: 50px;
+    width: 250px;
+    background-color: red;
+    margin: 30px;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; 
+    font-size: 54px;
+    color: white;
+    cursor: pointer;
+}
+#red{
+    background-color: red;
+}
